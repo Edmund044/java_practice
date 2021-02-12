@@ -1,4 +1,4 @@
-class attributes{
+class vehicle{
     int maxSpeed;
     int wheels;
     String color;
