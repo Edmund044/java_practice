@@ -7,6 +7,8 @@ class List{
         cars.add("MISTUBISHI");
         cars.add("TOYOTA");
         System.out.println(cars);
+        System.out.println(cars.get(0));
+        
 
     }
 }
