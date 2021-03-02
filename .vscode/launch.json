@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch List",
+            "request": "launch",
+            "mainClass": "List",
+            "projectName": "java_practice_6c087700"
+        },
+        {
+            "type": "java",
+            "name": "Launch date",
+            "request": "launch",
+            "mainClass": "date",
+            "projectName": "java_practice_6c087700"
+        },
+        {
+            "type": "java",
             "name": "Launch inputs",
             "request": "launch",
             "mainClass": "inputs",
