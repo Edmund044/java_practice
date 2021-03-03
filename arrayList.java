@@ -15,6 +15,12 @@ class List{
         System.out.println(cars);
         cars.set(0,"Ferrari");
         System.out.println(cars);
+        System.out.println(cars.size());
+        cars.add("MCLAREN");
+        System.out.println(cars);
+        System.out.println(cars.size());
+        cars.clear();
+        System.out.println(cars);
         
 
     }
