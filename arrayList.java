@@ -11,6 +11,10 @@ class List{
         System.out.println(cars.get(0));
         cars.set(0,"Lamborghini");
         System.out.println(cars.get(0));
+        cars.remove(0);
+        System.out.println(cars);
+        cars.set(0,"Ferrari");
+        System.out.println(cars);
         
 
     }
