@@ -20,6 +20,10 @@ class List{
         System.out.println(cars);
         System.out.println(cars.size());
         System.out.println(cars);
+        int i;
+        for(i=0;i<cars.size();i++){
+            System.out.println(cars.get(i));
+        }
         
 
     }
