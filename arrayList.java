@@ -19,7 +19,6 @@ class List{
         cars.add("MCLAREN");
         System.out.println(cars);
         System.out.println(cars.size());
-        cars.clear();
         System.out.println(cars);
         
 
