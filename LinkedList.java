@@ -8,6 +8,8 @@ class list{
         cars.add("AUDI");
         System.out.println(cars);
         System.out.println(cars.get(0));
+        cars.set(0,"LAMBORGHINI");
+
 
     }
 }
