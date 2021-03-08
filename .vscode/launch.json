@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch hash",
+            "request": "launch",
+            "mainClass": "hash",
+            "projectName": "java_practice_6c087700"
+        },
+        {
+            "type": "java",
             "name": "Launch list",
             "request": "launch",
             "mainClass": "list",
