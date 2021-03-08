@@ -7,5 +7,6 @@ class hash{
         capitalCities.put("Germany","Berlin");
         capitalCities.put("Kenya","Nairobi");
         System.out.println(capitalCities);
+        System.out.println(capitalCities.get("England"));
     }
 }
