@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Msain",
+            "request": "launch",
+            "mainClass": "Msain",
+            "projectName": "java_practice_6c087700"
+        },
+        {
+            "type": "java",
+            "name": "Launch set",
+            "request": "launch",
+            "mainClass": "set",
+            "projectName": "java_practice_6c087700"
+        },
+        {
+            "type": "java",
             "name": "Launch hash",
             "request": "launch",
             "mainClass": "hash",
