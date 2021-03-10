@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch sth",
+            "request": "launch",
+            "mainClass": "sth",
+            "projectName": "java_practice_6c087700"
+        },
+        {
+            "type": "java",
             "name": "Launch wrapper",
             "request": "launch",
             "mainClass": "wrapper",
