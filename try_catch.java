@@ -7,6 +7,8 @@ class sth {
        }
        catch (Exception e){
             System.out.println("Something went wrong!!");
+            //throw e;
+            // throw new ArrayIndexOutOfBoundsException("Error");
        }
        finally{
            System.out.println("Executed successfully");
