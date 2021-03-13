@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch lambda",
+            "request": "launch",
+            "mainClass": "lambda",
+            "projectName": "java_practice_6c087700"
+        },
+        {
+            "type": "java",
             "name": "Launch sth",
             "request": "launch",
             "mainClass": "sth",
