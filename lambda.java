@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.function.Consumer;
 
 public class lambda {
     public static void main(String [ ] args){
@@ -6,7 +7,8 @@ public class lambda {
         cars.add("Volvo");
         cars.add("BMW");
         cars.add("AUDI");
-        cars.forEach( (n)->{System.out.println(n);});
+        Consumer<String> number = (n) -> { System.out.println(n);};
+        cars.forEach(number);
       // System.out.println(cars);
     }
 }
