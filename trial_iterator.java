@@ -9,9 +9,10 @@ public class trial_iterator {
        cars.add("BMW");
        cars.add("AUDI");
        Iterator<String> it = cars.iterator();
-      
-       
-       System.out.println(it.next());
+       while(it.hasNext()){
+           System.out.println(it.next());
+
+       }
 
     }    
 
