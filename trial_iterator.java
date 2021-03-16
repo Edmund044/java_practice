@@ -8,8 +8,10 @@ public class trial_iterator {
        cars.add("MERCEDES");
        cars.add("BMW");
        cars.add("AUDI");
+       Iterator<String> it = cars.iterator();
+      
        
-       System.out.println(cars);
+       System.out.println(it.next());
 
     }    
 
