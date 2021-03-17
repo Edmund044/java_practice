@@ -1,10 +1,10 @@
 import java.io.File;
 import java.io.IOException;
 
-public class CreateFile{
+class CreateFile{
     public static void main (String [ ] args){
         try{
-            File newFile = new File("");
+            File newFile = new File("file.txt");
             if(newFile.createNewFile())
             {
                  System.out.println("FileName is:"+ newFile.getName());
