@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch readFile",
+            "request": "launch",
+            "mainClass": "readFile",
+            "projectName": "java_practice_6c087700"
+        },
+        {
+            "type": "java",
+            "name": "Launch readfile",
+            "request": "launch",
+            "mainClass": "readfile",
+            "projectName": "java_practice_6c087700"
+        },
+        {
+            "type": "java",
             "name": "Launch CreateFile",
             "request": "launch",
             "mainClass": "CreateFile",
